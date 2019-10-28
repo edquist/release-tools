@@ -13,7 +13,7 @@ See our Release documentation under the
 
 ---
 
-### `dockerhub-prune-tags.py`
+### `dockerhub-prune-tags`
 
 For [SOFTWARE-3844](https://opensciencegrid.atlassian.net/browse/SOFTWARE-3844),
 we have a tool to cleanup OSG Software docker images based on our policy:
@@ -40,7 +40,7 @@ Environment:
 If these are omitted, the script will prompt for them.
 ```
 
-### `dockerhub-tag-fresh-to-stable.sh`
+### `dockerhub-tag-fresh-to-stable`
 
 For [SOFTWARE-3843](https://opensciencegrid.atlassian.net/browse/SOFTWARE-3843),
 we have a tool to script tagging OSG Software docker images as `stable`.
